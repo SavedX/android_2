@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myjavaapplication.MainActivity">
+
+    <EditText
+        android:id="@+id/input_text"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:maxLines="1"
+        android:inputType="text"
+        android:hint="@string/edit" />
+
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_text"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Show"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnShow"
+        android:layout_below="@+id/btnShow"
+        android:layout_marginTop="29dp"
+        android:text="@string/Execute" />
+
+
+</RelativeLayout>

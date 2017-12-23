@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyJavaApplication</string>
+    <string name="Show">Восстановить</string>
+    <string name="Execute">Очистить</string>
+    <string name="Hello">Привет, Мир!</string>
+    <string name="edit">Edit</string>
+</resources>
